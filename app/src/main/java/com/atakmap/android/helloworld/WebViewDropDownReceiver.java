@@ -34,11 +34,59 @@ import java.io.IOException;
 
 import android.webkit.JavascriptInterface;
 
+
+
+
 class JsObject {
+            String sendPostRequest (String url, String jsonPayload) {
+            // Create OkHttpClient instance
+            OkHttpClient client = new OkHttpClient();
+
+            // Define MediaType for JSON
+            MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
+
+            // Create RequestBody
+            RequestBody body = RequestBody.create(jsonPayload, MEDIA_TYPE_JSON);
+
+            // Build the request
+            Request request = new Request.Builder()
+                    .url(url)
+                    .post(body)
+                    .build();
+
+            // Execute the request and fetch the response
+            try (Response response = client.newCall(request).execute()) {
+                return response.body().string(); // Convert response to String
+            } catch (IOException e) {
+                Log.e("TAG", "Error during HTTP POST request", e);
+                return "null"; // In case of error, return null or handle it as needed
+            }
+        }
+
+        // Example usage of the method
+        void exampleUsage () {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    String url = "https://adnan-thinkpad-x1-carbon-gen-11.jerboa-kokanue.ts.net/drive";
+                    String jsonPayload = "{\"x\":\"1\", \"y\":\"1\" }";
+
+                    sendPostRequest(url, jsonPayload);
+                    String url1 = "http://apr9.ngrok.app/drive";
+                    String url2 = "http://orin.local:8000";
+                    sendPostRequest(url1, jsonPayload);
+                    sendPostRequest(url2, jsonPayload);
+
+                    Log.d("TAG", "Response from server: ");
+                }
+            }).start();
+        }
+
+
     @JavascriptInterface
     public void shareData(String data) {
         Log.v("LOG_TAG", data);
-        //exampleUsage();
+        exampleUsage();
     }
 };
 public class WebViewDropDownReceiver extends DropDownReceiver implements
@@ -202,7 +250,8 @@ mapView.post(new Runnable() {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    String url = "http://192.168.1.202:8000/drive";
+                    String true_uri = "https://adnan-thinkpad-x1-carbon-gen-11.jerboa-kokanue.ts.net/";
+                    String url = true_uri;
                     String jsonPayload = "{\"x\":\"1\", \"y\":\"1\" }";
 
                     sendPostRequest(url, jsonPayload);
@@ -211,7 +260,7 @@ mapView.post(new Runnable() {
                     sendPostRequest(url1, jsonPayload);
                     sendPostRequest(url2, jsonPayload);
 
-                    Log.d(TAG, "Response from server: ");
+                    Log.d("TAG", "Response from server: ");
                 }
             }).start();
         }
