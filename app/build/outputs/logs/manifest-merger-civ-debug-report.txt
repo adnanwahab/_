@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+meta-data#plugin-api
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:21:9-81
+	android:value
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:21:46-79
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:21:20-45
+manifest
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+MERGED from [:takdevlint:] /home/adnan/.gradle/caches/transforms-3/f179a5866d45fe16e8b0b9979750a96f/transformed/takdevlint/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/adnan/.gradle/caches/transforms-3/136e159be0227a0561d61874e1cc2aab/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+	package
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:1-116:12
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:6:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:12:5-94
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:12:22-92
+application
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:15:5-114:19
+	android:label
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:17:9-45
+	android:allowBackup
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:16:9-36
+	android:description
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:19:9-47
+	android:theme
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:20:9-40
+meta-data#app_desc
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:9-78
+	android:value
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:44-76
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:20-43
+activity#com.atakmap.android.helloworld.plugin.MainActivity
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:30:27-74
+service#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:40:9-48:19
+	android:label
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:42:13-56
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:41:13-91
+intent-filter#action:name:com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:45:13-47:29
+action#com.atakmap.android.helloworld.notification.NotificationService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:46:17-105
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:46:25-103
+service#com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:50:9-58:19
+	android:label
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:52:13-48
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:51:13-85
+intent-filter#action:name:com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:55:13-57:29
+action#com.atakmap.android.helloworld.service.ExampleAidlService
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:56:17-99
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:56:25-97
+activity#com.atakmap.android.helloworld.CameraActivity
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:60:9-65:20
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:63:13-36
+	android:configChanges
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:64:13-48
+	android:theme
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:62:13-83
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:61:13-73
+activity#com.atakmap.app.component
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:94:8-101:19
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:95:12-35
+	tools:ignore
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:96:12-39
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:94:18-58
+intent-filter#action:name:com.atakmap.app.component
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:97:12-100:28
+	android:label
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:97:27-59
+action#com.atakmap.app.component
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:98:15-66
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:98:23-63
+activity#com.atakmap.android.helloworld.PluginPermissionActivity
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:104:9-112:20
+	android:screenOrientation
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:107:13-47
+	android:launchMode
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:106:13-48
+	android:exported
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:105:13-36
+	android:theme
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:108:13-51
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:104:19-89
+intent-filter#action:name:com.atakmap.android.sip.SipPermissionsActivity
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:109:13-111:29
+action#com.atakmap.android.sip.SipPermissionsActivity
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:110:17-89
+	android:name
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:110:25-86
+uses-sdk
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+MERGED from [:takdevlint:] /home/adnan/.gradle/caches/transforms-3/f179a5866d45fe16e8b0b9979750a96f/transformed/takdevlint/AndroidManifest.xml:5:5-44
+MERGED from [:takdevlint:] /home/adnan/.gradle/caches/transforms-3/f179a5866d45fe16e8b0b9979750a96f/transformed/takdevlint/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/adnan/.gradle/caches/transforms-3/136e159be0227a0561d61874e1cc2aab/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/adnan/.gradle/caches/transforms-3/136e159be0227a0561d61874e1cc2aab/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml

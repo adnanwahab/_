@@ -1,0 +1,6 @@
+com.atakmap.android.helloworld.plugin.test.app-lifecycle-runtime-2.5.1-0 /home/adnan/.gradle/caches/transforms-3/0fbb1ab8f062eb597348e5e3bf5c23fa/transformed/lifecycle-runtime-2.5.1/res
+com.atakmap.android.helloworld.plugin.test.app-aeronet-1 /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/generated/res/resValues/androidTest/aeronet/debug
+com.atakmap.android.helloworld.plugin.test.app-aeronet-2 /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/generated/res/rs/androidTest/aeronet/debug
+com.atakmap.android.helloworld.plugin.test.app-mergeAeronetDebugAndroidTestResources-3 /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/incremental/aeronetDebugAndroidTest/mergeAeronetDebugAndroidTestResources/merged.dir
+com.atakmap.android.helloworld.plugin.test.app-mergeAeronetDebugAndroidTestResources-4 /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/incremental/aeronetDebugAndroidTest/mergeAeronetDebugAndroidTestResources/stripped.dir
+com.atakmap.android.helloworld.plugin.test.app-merged_res-5 /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/merged_res/aeronetDebugAndroidTest

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.atakmap.android.helloworld.plugin.aeronet.test",
+  "variantName": "aeronetDebugAndroidTest",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "ATAK-Plugin-helloworld-1.0-aca4be1e-5.1.0-aeronet-debug-androidTest.apk"
+    }
+  ],
+  "elementType": "File"
+}

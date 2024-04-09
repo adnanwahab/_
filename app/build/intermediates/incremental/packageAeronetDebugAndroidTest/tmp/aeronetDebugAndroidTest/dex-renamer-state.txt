@@ -1,0 +1,10 @@
+#Mon Apr 08 21:18:25 MST 2024
+base.0=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/aeronetDebugAndroidTest/mergeExtDexAeronetDebugAndroidTest/classes.dex
+base.1=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/aeronetDebugAndroidTest/mergeProjectDexAeronetDebugAndroidTest/0/classes.dex
+base.2=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/aeronetDebugAndroidTest/mergeProjectDexAeronetDebugAndroidTest/4/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=4/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

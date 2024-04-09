@@ -171,6 +171,10 @@ public class HelloWorldMapComponent extends DropDownMapComponent {
     public void onCreate(final Context context, Intent intent,
             final MapView view) {
 
+        // Create a player instance.
+        //CHAT GPT PUT CODE HERE
+
+
         // Set the theme.  Otherwise, the plugin will look vastly different
         // than the main ATAK experience.   The theme needs to be set 
         // programatically because the AndroidManifest.xml is not used.
@@ -211,6 +215,9 @@ public class HelloWorldMapComponent extends DropDownMapComponent {
         //HelloWorld MapOverlay added to Overlay Manager.
         this.mapOverlay = new HelloWorldMapOverlay(view, pluginContext);
         view.getMapOverlayManager().addOverlay(this.mapOverlay);
+
+
+
 
         //MapView.getMapView().getRootGroup().getChildGroupById(id).setVisible(true);
 

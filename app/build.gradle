@@ -87,25 +87,25 @@ apply plugin: 'atak-takdev-plugin'
 def supportedFlavors = 
 [
     [ name : 'civ', default: true ],
-    [ name : 'mil' /** example: true **/],
-    [ name : 'aus' ],
-    [ name : 'nzl' ],
-    [ name : 'prt' ],
-    [ name : 'nor' ],
-    [ name : 'swe' ],
-    [ name : 'gbr' ],
-    [ name : 'can' ],
-    [ name : 'hun' ],
-    [ name : 'bel' ],
-    [ name : 'est' ],
-    [ name : 'ltu' ],
-    [ name : 'ukr' ],
-    [ name : 'pol' ],
-    [ name : 'nld' ],
-    [ name : 'esp' ],
-    [ name : 'aeronet' ],
-    [ name : 'gov' ],
-    [ name : 'natosof' ],
+//    [ name : 'mil' /** example: true **/],
+//    [ name : 'aus' ],
+//    [ name : 'nzl' ],
+//    [ name : 'prt' ],
+//    [ name : 'nor' ],
+//    [ name : 'swe' ],
+//    [ name : 'gbr' ],
+//    [ name : 'can' ],
+//    [ name : 'hun' ],
+//    [ name : 'bel' ],
+//    [ name : 'est' ],
+//    [ name : 'ltu' ],
+//    [ name : 'ukr' ],
+//    [ name : 'pol' ],
+//    [ name : 'nld' ],
+//    [ name : 'esp' ],
+//    [ name : 'aeronet' ],
+//    [ name : 'gov' ],
+//    [ name : 'natosof' ],
 ]
 
 android {
@@ -207,9 +207,9 @@ android {
             defaultConfig.versionName = PLUGIN_VERSION + " (" + getVersionName() + ") - [" + ATAK_VERSION + "]"
         }
 
-        gov.java.srcDirs 'src/gov/java'
-        gov.assets.srcDir 'src/gov/assets'
-        gov.res.srcDir 'src/gov/res'
+//        gov.java.srcDirs 'src/gov/java'
+//        gov.assets.srcDir 'src/gov/assets'
+//        gov.res.srcDir 'src/gov/res'
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
@@ -242,6 +242,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
 
     // Recyclerview version depends on some androidx libraries which
     // are supplied by core, so they should be excluded.  Otherwise

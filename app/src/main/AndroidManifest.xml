@@ -22,11 +22,20 @@
         <meta-data android:name="app_desc" android:value="@string/app_desc"/>
 
 
-  
-        <provider android:name="com.javacodegeeks.android.contentprovidertest.BirthProvider"
-            android:authorities="com.javacodegeeks.provider.Birthday"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
-        </provider>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+<!--        <provider android:name="com.javacodegeeks.android.contentprovidertest.BirthProvider"-->
+<!--            android:authorities="com.javacodegeeks.provider.Birthday"-->
+<!--            android:exported="true">-->
+<!--        </provider>-->
 
         <service
             android:name="com.atakmap.android.helloworld.notification.NotificationService"
@@ -67,16 +76,19 @@
             </intent-filter>
         </activity>
         -->
-        <activity
-            android:name="com.atakmap.android.helloworld.speechtotext.SpeechToActivity"
-            android:theme="@style/Theme.Transparent"
-            android:exported="true"
-            android:configChanges="orientation"
-            android:launchMode="singleTop">
-            <intent-filter>
-                <action android:name="com.atakmap.android.helloworld.SpeechToActivity"/>
-            </intent-filter>
-        </activity>
+<!--        <activity-->
+<!--            android:name="com.atakmap.android.helloworld.speechtotext.SpeechToActivity"-->
+<!--            android:theme="@style/Theme.Transparent"-->
+<!--            android:exported="true"-->
+<!--            android:configChanges="orientation"-->
+<!--            android:launchMode="singleTop">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--                <action android:name="com.atakmap.android.helloworld.SpeechToActivity"/>-->
+<!--            </intent-filter>-->
+
+<!--        </activity>-->
 
        <!-- allow for plugin discovery -->
        <activity android:name="com.atakmap.app.component"
@@ -84,6 +96,7 @@
            tools:ignore="MissingClass">
            <intent-filter android:label="@string/app_name">
               <action android:name="com.atakmap.app.component" />
+
            </intent-filter>
        </activity>
 
