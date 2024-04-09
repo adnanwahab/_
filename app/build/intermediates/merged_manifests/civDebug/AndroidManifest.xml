@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.atakmap.android.helloworld.plugin"
-    android:versionCode="1712688449"
-    android:versionName="1.0 (3be0fe91) - [5.1.0]" >
+    android:versionCode="1712690776"
+    android:versionName="1.0 (63bf5c72) - [5.1.0]" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="32"
         android:targetSdkVersion="33" />
 
     <!-- allows for the app to run the notification service -->
@@ -30,7 +30,7 @@
             android:value="com.atakmap.app@5.1.0.CIV" />
         <meta-data
             android:name="app_desc"
-            android:value="@string/app_desc" />
+            android:value="This is Swarmbotics testing app" />
 
         <activity
             android:name="com.atakmap.android.helloworld.plugin.MainActivity"

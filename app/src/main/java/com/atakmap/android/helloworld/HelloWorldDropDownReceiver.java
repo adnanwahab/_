@@ -431,7 +431,7 @@ public class HelloWorldDropDownReceiver extends DropDownReceiver implements
                 public void run() {
                     Toast.makeText(getMapView().getContext(), distance + ", " +
                             azimuth + ", " + inclination, Toast.LENGTH_SHORT).show();
-                    //helloView.findViewById(R.id.lrfTool).setSelected(false);
+                    helloView.findViewById(R.id.lrfTool).setSelected(false);
                 }
             });
         }

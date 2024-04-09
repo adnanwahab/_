@@ -159,7 +159,7 @@
     <string name="fly">Pan to a location on the map</string>
     <string name="full_example_summary">Shows a quick example of how to reference both a title and a summary as a String resource</string>
     <string name="full_example_title">Full String Example</string>
-    <string name="hello_world">Hello World</string>
+    <string name="hello_world">Swarmbotics.ai Teleop</string>
     <string name="hide_dropdown">Hide</string>
     <string name="hide_dropdown_desc">Hide the dropdown from within the NavstackItem</string>
     <string name="hookNavigation">A simple example that hooks into navigation events and toasts events pertaining to navigation.</string>

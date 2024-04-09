@@ -32,6 +32,15 @@ import okhttp3.Response;
 
 import java.io.IOException;
 
+import android.webkit.JavascriptInterface;
+
+class JsObject {
+    @JavascriptInterface
+    public void shareData(String data) {
+        Log.v("LOG_TAG", data);
+        //exampleUsage();
+    }
+}
 public class WebViewDropDownReceiver extends DropDownReceiver implements
         OnStateListener {
     public static final String SHOW_WEBVIEW = "helloworld.example.webview";
@@ -95,42 +104,44 @@ public class WebViewDropDownReceiver extends DropDownReceiver implements
         this.appContext = mapView.getContext();
         LayoutInflater inflater = LayoutInflater.from(pluginContext);
         ll = (LinearLayout) inflater.inflate(R.layout.blank_linearlayout, null);
-        exampleUsage();
-        return;
+        //exampleUsage();
+
         // must be created using the application context otherwise this will fail
-//        mapView.post(new Runnable() {
-//            @Override
-//            public void run() {
-//
-//                htmlViewer = new WebView(mapView.getContext());
-//                htmlViewer.setVerticalScrollBarEnabled(true);
-//                htmlViewer.setHorizontalScrollBarEnabled(true);
-//
-//                WebSettings webSettings = htmlViewer.getSettings();
-//
-//                // do not enable per security guidelines
-//                //webSettings.setAllowFileAccessFromFileURLs(true);
-//                //webSettings.setAllowUniversalAccessFromFileURLs(true);
-//
-//                webSettings.setBuiltInZoomControls(true);
-//                webSettings.setDisplayZoomControls(false);
-//                webSettings.setJavaScriptEnabled(true);
-//                webSettings.setDomStorageEnabled(true);
-//                webSettings.setAllowContentAccess(true);
-//                webSettings.setDatabaseEnabled(true);
-//                webSettings.setGeolocationEnabled(true);
-//                htmlViewer.setWebChromeClient(new ChromeClient());
-//
-//                // cause subsequent calls to loadData not to fail - without this
-//                // the web view would remain inconsistent on subsequent concurrent opens
-//                htmlViewer.loadUrl("about:blank");
-//                htmlViewer.setWebViewClient(new Client());
-//
-//                htmlViewer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
-//                        LayoutParams.MATCH_PARENT));
-//                ll.addView(htmlViewer);
-//            }
-//        });
+mapView.post(new Runnable() {
+            @Override
+            public void run() {
+                htmlViewer = new WebView(mapView.getContext());
+                htmlViewer.setVerticalScrollBarEnabled(true);
+                htmlViewer.setHorizontalScrollBarEnabled(true);
+
+                WebSettings webSettings = htmlViewer.getSettings();
+
+                // do not enable per security guidelines
+                //webSettings.setAllowFileAccessFromFileURLs(true);
+                //webSettings.setAllowUniversalAccessFromFileURLs(true);
+
+                webSettings.setBuiltInZoomControls(true);
+                webSettings.setDisplayZoomControls(false);
+                webSettings.setJavaScriptEnabled(true);
+                webSettings.setDomStorageEnabled(true);
+                webSettings.setAllowContentAccess(true);
+                webSettings.setDatabaseEnabled(true);
+                webSettings.setGeolocationEnabled(true);
+
+                htmlViewer.addJavascriptInterface(new JsObject(), "Android");
+
+                htmlViewer.setWebChromeClient(new ChromeClient());
+
+                // cause subsequent calls to loadData not to fail - without this
+                // the web view would remain inconsistent on subsequent concurrent opens
+                htmlViewer.loadUrl("about:blank");
+                htmlViewer.setWebViewClient(new Client());
+
+                htmlViewer.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
+                        LayoutParams.MATCH_PARENT));
+                ll.addView(htmlViewer);
+            }
+        });
 
     }
 
@@ -168,6 +179,8 @@ public class WebViewDropDownReceiver extends DropDownReceiver implements
         public void onProgressChanged(WebView view, int newProgress) {
             super.onProgressChanged(view, newProgress);
             Log.d(TAG, "loading progress: " + newProgress);
+
+
         }
     }
 
@@ -178,13 +191,13 @@ public class WebViewDropDownReceiver extends DropDownReceiver implements
         if (action != null && action.equals(SHOW_WEBVIEW)) {
             exampleUsage();
             showDropDown(ll, HALF_WIDTH, FULL_HEIGHT,
-                    FULL_WIDTH, .7, false, this);
+                    FULL_WIDTH, .8, false, this);
             this.htmlViewer.loadUrl("about:blank");
             //this.htmlViewer.loadUrl("http://192.168.43.174:3000");
             //https://80e6-4-17-224-160.ngrok-free.app
             //this.htmlViewer.loadUrl("https://adnan-thinkpad-x1-carbon-gen-11.jerboa-kokanue.ts.net/");
             //this.htmlViewer.loadUrl("https://adnan-thinkpad-x1-carbon-gen-11.jerboa-kokanue.ts.net/"); //this works
-            this.htmlViewer.loadUrl("https://apr9.ngrok.app"); //this works
+            this.htmlViewer.loadUrl("http://apr9.ngrok.app"); //this works
 
 
             this.htmlViewer.setWebChromeClient(new WebChromeClient() {

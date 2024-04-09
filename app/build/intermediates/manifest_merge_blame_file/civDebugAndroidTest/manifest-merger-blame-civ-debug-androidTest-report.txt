@@ -3,30 +3,30 @@
 3    package="com.atakmap.android.helloworld.plugin.test" >
 4
 5    <uses-sdk
-5-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:5:5-74
-6        android:minSdkVersion="21"
-6-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:5:15-41
+5-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:5:5-74
+6        android:minSdkVersion="32"
+6-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:5:15-41
 7        android:targetSdkVersion="33" />
-7-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:5:42-71
+7-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:11:5-15:87
+9-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:11:5-15:87
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:11:22-75
+10-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:11:22-75
 11        android:functionalTest="false"
-11-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:14:22-52
+11-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:13:22-53
+12-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:13:22-53
 13        android:label="Tests for com.atakmap.android.helloworld.plugin"
-13-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:15:22-85
+13-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:15:22-85
 14        android:targetPackage="com.atakmap.android.helloworld.plugin" />
-14-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:12:22-83
+14-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:12:22-83
 15
 16    <application android:debuggable="true" >
-16-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:7:5-9:19
+16-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:7:5-9:19
 17        <uses-library android:name="android.test.runner" />
-17-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:8:9-60
-17-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest14366189573267365765.xml:8:23-57
+17-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:8:9-60
+17-->/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/tmp/manifest/androidTest/civ/debug/tempFile1ProcessTestManifest2114229686673799563.xml:8:23-57
 18    </application>
 19
 20</manifest>

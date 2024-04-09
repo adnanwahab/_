@@ -3,7 +3,7 @@
     package="com.atakmap.android.helloworld.plugin.test" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="32"
         android:targetSdkVersion="33" />
 
     <instrumentation

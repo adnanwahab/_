@@ -57,9 +57,9 @@ ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src
 	android:theme
 		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:20:9-40
 meta-data#app_desc
-ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:9-78
+ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:9-93
 	android:value
-		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:44-76
+		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:44-91
 	android:name
 		ADDED from /home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/src/main/AndroidManifest.xml:22:20-43
 activity#com.atakmap.android.helloworld.plugin.MainActivity

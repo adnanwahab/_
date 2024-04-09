@@ -23,6 +23,13 @@ import com.atakmap.map.opengl.GLRenderGlobals;
 import android.content.BroadcastReceiver;
 import com.atakmap.coremap.log.Log;
 
+//import android.os.Bundle;
+//import androidx.appcompat.app.AppCompatActivity;
+//import com.google.android.exoplayer2.ExoPlayer;
+//import com.google.android.exoplayer2.MediaItem;
+//import com.google.android.exoplayer2.source.rtsp.RtspMediaSource;
+//import com.google.android.exoplayer2.ui.PlayerView;
+
 public class HelloWorldWidget extends AbstractWidgetMapComponent implements
         OnPressListener, MapWidget.OnUnpressListener, MapWidget.OnMoveListener,
         MapWidget.OnClickListener {
@@ -33,9 +40,37 @@ public class HelloWorldWidget extends AbstractWidgetMapComponent implements
     private final static int ICON_HEIGHT = 64;
     public static final String TAG = "HelloWorldWidget";
 
+
+    //public your_video_view;
+//    public PlayerView your_video_view;
+//    public ExoPlayer player;
     @Override
     protected void onCreateWidgets(final Context context, final Intent intent,
             final MapView view) {
+// Create a player instance.
+//        ExoPlayer player = new ExoPlayer.Builder(context).build();
+//// Set the media item to be played.
+//        player.setMediaItem(MediaItem.fromUri(rtspUri));
+//// Prepare the player.
+//        player.prepare();
+//        you_video_view = player;
+
+        // Create an RTSP media source pointing to an RTSP uri.
+
+        String rtspUri = "rtsp://192.168.1.202:8554/cam0`";
+
+//        MediaSource mediaSource =
+//                new RtspMediaSource.Factory().createMediaSource(MediaItem.fromUri(rtspUri));
+//// Create a player instance.
+//        ExoPlayer player = new ExoPlayer.Builder(context).build();
+//// Set the media source to be played.
+//        player.setMediaSource(mediaSource);
+//// Prepare the player.
+//        player.prepare();
+//
+//
+
+
 
         mapView = view;
         Log.d(TAG, "registering my wacky search");

@@ -2,7 +2,7 @@
 <resources>
     <!-- App -->
     <string name="app_name">샘플 소프트웨어</string>
-    <string name="hello_world">Hello World</string>
+    <string name="hello_world">Swarmbotics.ai Teleop</string>
     <!-- description -->
     <string name="app_desc">Hello World Plugin</string>
     <!-- Button Descriptions-->
