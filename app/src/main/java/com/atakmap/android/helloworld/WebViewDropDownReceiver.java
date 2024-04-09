@@ -40,7 +40,7 @@ class JsObject {
         Log.v("LOG_TAG", data);
         //exampleUsage();
     }
-}
+};
 public class WebViewDropDownReceiver extends DropDownReceiver implements
         OnStateListener {
     public static final String SHOW_WEBVIEW = "helloworld.example.webview";
@@ -53,49 +53,6 @@ public class WebViewDropDownReceiver extends DropDownReceiver implements
 
     private final LinearLayout ll;
 
-    private String sendPostRequest(String url, String jsonPayload) {
-        // Create OkHttpClient instance
-        OkHttpClient client = new OkHttpClient();
-
-        // Define MediaType for JSON
-        MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
-
-        // Create RequestBody
-        RequestBody body = RequestBody.create(jsonPayload, MEDIA_TYPE_JSON);
-
-        // Build the request
-        Request request = new Request.Builder()
-                .url(url)
-                .post(body)
-                .build();
-
-        // Execute the request and fetch the response
-        try (Response response = client.newCall(request).execute()) {
-            return response.body().string(); // Convert response to String
-        } catch (IOException e) {
-            Log.e(TAG, "Error during HTTP POST request", e);
-            return null; // In case of error, return null or handle it as needed
-        }
-    }
-
-    // Example usage of the method
-    public void exampleUsage() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String url = "http://192.168.1.202:8000/drive";
-                String jsonPayload = "{\"x\":\"1\", \"y\":\"1\" }";
-
-                String response = sendPostRequest(url, jsonPayload);
-                String url1 = "http://apr9.ngrok.app/drive";
-                String url2 = "http://orin.local:8000";
-                sendPostRequest(url1, jsonPayload);
-                sendPostRequest(url2, jsonPayload);
-
-                Log.d(TAG, "Response from server: " + response);
-            }
-        }).start();
-    }
 
     public WebViewDropDownReceiver(final MapView mapView,
             final Context context) {
@@ -146,6 +103,52 @@ mapView.post(new Runnable() {
     }
 
     public static class Client extends WebViewClient {
+
+        String sendPostRequest (String url, String jsonPayload) {
+            // Create OkHttpClient instance
+            OkHttpClient client = new OkHttpClient();
+
+            // Define MediaType for JSON
+            MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
+
+            // Create RequestBody
+            RequestBody body = RequestBody.create(jsonPayload, MEDIA_TYPE_JSON);
+
+            // Build the request
+            Request request = new Request.Builder()
+                    .url(url)
+                    .post(body)
+                    .build();
+
+            // Execute the request and fetch the response
+            try (Response response = client.newCall(request).execute()) {
+                return response.body().string(); // Convert response to String
+            } catch (IOException e) {
+                Log.e(TAG, "Error during HTTP POST request", e);
+                return "null"; // In case of error, return null or handle it as needed
+            }
+        }
+
+        // Example usage of the method
+        void exampleUsage () {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    String url = "http://192.168.1.202:8000/drive";
+                    String jsonPayload = "{\"x\":\"1\", \"y\":\"1\" }";
+
+                    sendPostRequest(url, jsonPayload);
+                    String url1 = "http://apr9.ngrok.app/drive";
+                    String url2 = "http://orin.local:8000";
+                    sendPostRequest(url1, jsonPayload);
+                    sendPostRequest(url2, jsonPayload);
+
+                    Log.d(TAG, "Response from server: ");
+                }
+            }).start();
+        }
+
+
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
             Log.d(TAG, "started retrieving: " + url);
@@ -167,8 +170,55 @@ mapView.post(new Runnable() {
     }
 
     private static class ChromeClient extends WebChromeClient {
+
+
+        String sendPostRequest (String url, String jsonPayload) {
+            // Create OkHttpClient instance
+            OkHttpClient client = new OkHttpClient();
+
+            // Define MediaType for JSON
+            MediaType MEDIA_TYPE_JSON = MediaType.parse("application/json; charset=utf-8");
+
+            // Create RequestBody
+            RequestBody body = RequestBody.create(jsonPayload, MEDIA_TYPE_JSON);
+
+            // Build the request
+            Request request = new Request.Builder()
+                    .url(url)
+                    .post(body)
+                    .build();
+
+            // Execute the request and fetch the response
+            try (Response response = client.newCall(request).execute()) {
+                return response.body().string(); // Convert response to String
+            } catch (IOException e) {
+                Log.e(TAG, "Error during HTTP POST request", e);
+                return "null"; // In case of error, return null or handle it as needed
+            }
+        }
+
+        // Example usage of the method
+        void exampleUsage () {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    String url = "http://192.168.1.202:8000/drive";
+                    String jsonPayload = "{\"x\":\"1\", \"y\":\"1\" }";
+
+                    sendPostRequest(url, jsonPayload);
+                    String url1 = "http://apr9.ngrok.app/drive";
+                    String url2 = "http://orin.local:8000";
+                    sendPostRequest(url1, jsonPayload);
+                    sendPostRequest(url2, jsonPayload);
+
+                    Log.d(TAG, "Response from server: ");
+                }
+            }).start();
+        }
+
         @Override
         public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
+            exampleUsage();
             Log.d(TAG, consoleMessage.message() + " -- From line "
                     + consoleMessage.lineNumber() + " of "
                     + consoleMessage.sourceId());
@@ -188,8 +238,9 @@ mapView.post(new Runnable() {
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
 
+
         if (action != null && action.equals(SHOW_WEBVIEW)) {
-            exampleUsage();
+            //exampleUsage();
             showDropDown(ll, HALF_WIDTH, FULL_HEIGHT,
                     FULL_WIDTH, .8, false, this);
             this.htmlViewer.loadUrl("about:blank");

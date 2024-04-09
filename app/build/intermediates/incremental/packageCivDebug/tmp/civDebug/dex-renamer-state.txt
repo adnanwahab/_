@@ -1,4 +1,4 @@
-#Tue Apr 09 13:22:40 MST 2024
+#Tue Apr 09 13:49:50 MST 2024
 base.0=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/civDebug/mergeExtDexCivDebug/classes.dex
 base.1=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/civDebug/mergeProjectDexCivDebug/0/classes.dex
 base.10=/home/adnan/their_way/ATAK-CIV-5.1.0.5-SDK/samples/helloworld/app/build/intermediates/dex/civDebug/mergeProjectDexCivDebug/9/classes.dex
